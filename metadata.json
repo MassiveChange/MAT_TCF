@@ -1,0 +1,7 @@
+{
+  "name": "TCF Manager Pro",
+  "description": "A comprehensive management system for TCFs, Members, Schedules, and Reporting with AI-powered insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
