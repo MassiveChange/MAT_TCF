@@ -74,7 +74,7 @@ export const ScheduleView: React.FC<ScheduleViewProps> = ({ onReportClick }) => 
   };
 
   const handleTcfSelection = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedOptions = Array.from(e.target.selectedOptions, option => option.value);
+    const selectedOptions = Array.from(e.target.selectedOptions, (option: HTMLOptionElement) => option.value);
     setFormData({ ...formData, tcfIds: selectedOptions });
   };
 
