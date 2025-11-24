@@ -5,7 +5,7 @@ export const analyzeReports = async (
   reports: Report[],
   members: Member[],
   tcfs: TCF[],
-  language: Language = 'en'
+  language: Language = 'fa'
 ): Promise<string> => {
   if (!process.env.API_KEY) {
     return language === 'fa' 
